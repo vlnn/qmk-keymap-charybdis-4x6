@@ -1,6 +1,17 @@
 #include QMK_KEYBOARD_H
 #include "pointing.h"
 
+enum {
+  TD_LPARBRC = 0
+};
+
+//Tap Dance Definition
+qk_tap_dance_action_t tap_dance_actions[] = {
+  //Tap once for Esc, twice for Caps Lock
+  [TD_LPARBRC]  = ACTION_TAP_DANCE_DOUBLE(KC_LPAR, KC_LBRC)
+};
+
+
 #define PT_SLSH LT(TG(3), KC_SLSH)
 
 #ifdef CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
@@ -32,5 +43,4 @@ void matrix_scan_user(void) {
 }
 #    endif // CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 #endif     // POINTING_DEVICE_ENABLE
-
 

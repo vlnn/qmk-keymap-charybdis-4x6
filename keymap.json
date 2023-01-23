@@ -54,7 +54,7 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "ACTION_TAP_DANCE_DOUBLE(KC_LPRN,KC_LBRC)",
+      "TD(TD_LPARBRC)",
       "KC_BSPC",
       "KC_DEL",
       "KC_ENT",
