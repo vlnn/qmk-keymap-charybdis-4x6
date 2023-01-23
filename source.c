@@ -1,5 +1,6 @@
 #include QMK_KEYBOARD_H
 #include "pointing.h"
+#include "quantum.h"
 
 enum {
   TD_LPARBRC = 0
