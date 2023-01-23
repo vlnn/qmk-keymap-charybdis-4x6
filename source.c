@@ -8,7 +8,7 @@ enum {
 //Tap Dance Definition
 qk_tap_dance_action_t tap_dance_actions[] = {
   //Tap once for Esc, twice for Caps Lock
-  [TD_LPARBRC]  = ACTION_TAP_DANCE_DOUBLE(KC_LPAR, KC_LBRC)
+  [TD_LPARBRC]  = ACTION_TAP_DANCE_DOUBLE(KC_LPRN, KC_LCBR)
 };
 
 
