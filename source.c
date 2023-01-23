@@ -1,16 +1,5 @@
 #include QMK_KEYBOARD_H
 #include "pointing.h"
-#include "quantum.h"
-
-enum {
-  TD_LPARBRC = 0
-};
-
-//Tap Dance Definition
-qk_tap_dance_action_t tap_dance_actions[] = {
-  //Tap once for Esc, twice for Caps Lock
-  [TD_LPARBRC]  = ACTION_TAP_DANCE_DOUBLE(KC_LPRN, KC_LCBR)
-};
 
 
 #define PT_SLSH LT(TG(3), KC_SLSH)
