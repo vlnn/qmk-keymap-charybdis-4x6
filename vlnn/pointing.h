@@ -10,18 +10,13 @@ enum charybdis_keymap_layers {
 #    define SNIPING KC_NO
 #endif // !POINTING_DEVICE_ENABLE
 
-
-
 /* Disable unused features. */
 #define NO_ACTION_ONESHOT
 
 /* Charybdis-specific features. */
-
 #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS 1000
 #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD 8
 #define CHARYBDIS_DRAGSCROLL_REVERSE_X
 #define CHARYBDIS_DRAGSCROLL_REVERSE_Y
-
-
 

@@ -1,6 +1,17 @@
-# Charybdis (4x6) default keymap
+# Charybdis (4x6) customized keymap
 
-> :bulb: Have a look at the [`via` keymap](../via) for a more feature-rich layout.
+This is my config to use with [Charybdis, the split keyboard](https://bastardkb.com/charybdis/).
+
+## Photo 
+TBD
+
+## Keymap
+TBD
+
+## How to use
+TBD
+
+## Legacy docs from the maker
 
 The Charydbis (4x6) default keymap is inspired from the original [Dactyl Manuform](../../../../../handwired/dactyl_manuform) default keymap.
 
