@@ -37,4 +37,4 @@ MOUSE_SHARED_EP = no # Unify multiple HID interfaces into a single Endpoint
 
 
 LTO_ENABLE = yes
-UNICODEMAP_ENABLE = yes
+UNICODEMAP_ENABLE = no
