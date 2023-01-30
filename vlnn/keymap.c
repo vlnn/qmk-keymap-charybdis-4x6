@@ -43,11 +43,11 @@ void space_cadet_open_finished(qk_tap_dance_state_t *state, void *user_data) {
     register_code(KC_9); // (
     break;
   case DOUBLE_TAP:
-    register_mods(MOD_BIT(KC_LSFT));
-    register_code(KC_LBRC); // {
+    register_code(KC_LBRC); // [
     break;
   case TRIPLE_TAP:
-    register_code(KC_LBRC); // [
+    register_mods(MOD_BIT(KC_LSFT));
+    register_code(KC_LBRC); // {
     break;
   case QUAD_TAP:
     register_mods(MOD_BIT(KC_LSFT));
@@ -66,9 +66,9 @@ void space_cadet_open_reset(qk_tap_dance_state_t *state, void *user_data) {
     break;
   case DOUBLE_TAP:
     unregister_code(KC_LBRC); // [
-    unregister_mods(MOD_BIT(KC_LSFT));
     break;
   case TRIPLE_TAP:
+    unregister_mods(MOD_BIT(KC_LSFT));
     unregister_code(KC_LBRC); // {
     break;
   case QUAD_TAP:
