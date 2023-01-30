@@ -137,18 +137,13 @@ qk_tap_dance_action_t tap_dance_actions[] = {
         NULL, space_cadet_open_finished, space_cadet_open_reset),
 };
 
-enum unicode_names {
-    UA_IE=10,
-    UA_ie,
-    UA_G,
-    UA_g,
-};
-
-const uint32_t unicode_map[] PROGMEM = {
-    [UA_IE] = 0x0404,  // Є
-    [UA_ie] = 0x0454,  // є
-    [UA_G]  = 0x0490,   // Ґ
-    [UA_g]  = 0x0491,   // ґ
+const uint16_t PROGMEM circ[] = {KC_Y, KC_U, COMBO_END};
+const uint16_t PROGMEM ampr[] = {KC_U, KC_I, COMBO_END};
+const uint16_t PROGMEM past[] = {KC_I, KC_O, COMBO_END};
+combo_t key_combos[COMBO_COUNT] = {
+    COMBO(circ, KC_CIRC),
+    COMBO(ampr, KC_AMPR),
+    COMBO(past, KC_PAST),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {

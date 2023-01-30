@@ -36,4 +36,5 @@ MOUSE_SHARED_EP = no # Unify multiple HID interfaces into a single Endpoint
 #KEYBOARD_SHARED_EP = yes
 
 LTO_ENABLE = yes
-UNICODEMAP_ENABLE = yes
+UNICODEMAP_ENABLE = no      # This may be revised
+COMBO_ENABLE = yes

@@ -45,3 +45,5 @@
 #define BOOTMAGIC_LITE_COLUMN 0
 
 #define TAPPING_TERM 200
+
+#define COMBO_COUNT 3
