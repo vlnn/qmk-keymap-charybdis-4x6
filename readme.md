@@ -11,6 +11,9 @@ TBD
 ## How to use
 TBD
 
+## Dependency
+EN/UA language switches via karabiner-elements special rule, that binds F13 to English layout and F14 to Ukrainian one. You have to configure your OS to support this settings (any two languages, actually, in any order -- keyboard will just send F13 or F14 key codes).
+
 ## Legacy docs from the maker
 
 The Charydbis (4x6) default keymap is inspired from the original [Dactyl Manuform](../../../../../handwired/dactyl_manuform) default keymap.
